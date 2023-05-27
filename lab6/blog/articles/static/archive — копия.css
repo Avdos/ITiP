@@ -1,0 +1,73 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #333;
+    color: #fffc;
+}
+table {
+    border-collapse: collapse;
+}
+p, h4 {
+    font-size: 16px; 
+    margin-bottom: 0;
+    color: #fffc;
+}
+h4 {
+    font-size: 14px; 
+}
+ul, ol {
+    margin: 0;
+}
+table tr td {
+    padding: 5px;
+}
+table {
+	width: 100%;
+}
+
+img {
+	height: 50px;
+	width: auto;
+}
+.post-title a {
+color: #ffffff;
+}
+.header a {
+color: #ffffff;
+}
+.header {
+display: block;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+.header img {
+display: block; 
+width: auto; 
+margin-left: auto; 
+margin-right: auto;
+}
+.one-post {
+width: 960px; 
+margin-left: auto;
+margin-right: auto;
+}
+.article-author { 
+width: 90%; 
+float: left;
+}
+.article-created-date { 
+text-align: right;
+}
+.head1 a {
+color: #ffffff;
+}
+.head1 a {
+float: right;
+}
+.head1 {
+display: block;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}

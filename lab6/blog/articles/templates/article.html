@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<link rel="stylesheet" href="{{ STATIC_URL }}/static/article.css">
+	<div class="head1">
+	{% if not request.user.is_authenticated %}
+	<h4> <a href="../user/new/">Регистрация</a>
+	{% endif %}
+	</h4>
+	</div>
+        <title>Статья</title>
+	</head>
+    	<body>
+            <div class="header">
+                <img src="{{ STATIC_URL }}/static/1.jpg">
+		<h2> <a href="../posts/">Все статьи</a>
+		</h2>
+            </div>
+            <div class="article">
+            </div>
+    	    <div class="one-post">
+                <h2 class="post-title">{{ post.title }} 
+                </h2>
+                <div class="article-info">
+                    <div class="article-author">{{ post.author.username }}
+	                </div>
+                    <div class="article-created-date">{{ post.created_date }}
+	                </div>
+                </div>
+                <p class="article-text">{{ post.get_excerpt2 }}
+	        </p>
+            </div>
+    </body>
+</html>
